@@ -27,7 +27,12 @@
     var_dump($age);
     
     echo $lenguajes[2];
+
+    // Constantes
+    // Globales
+    define('LOGO_URL', 'https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png');
 ?>
+<img src="<?= LOGO_URL ?>" alt="PHP Logo" width="200">
 </h1>
 <h1>
     Hola, soy <?=$user;?>
