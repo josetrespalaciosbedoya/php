@@ -1,7 +1,7 @@
 <h1>
 <?php
     // Variable
-    $name = "";
+    $name = "Jose Luis";
     // Impresión básica
     echo "Hola mundo";
 ?>
