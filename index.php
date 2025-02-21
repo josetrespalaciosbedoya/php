@@ -45,6 +45,13 @@
         3, 4,5,6,7,8,9,10 => "Eres un niño, $name",
         11,12,13,14,15,16 => "Eres un adolescente, $name"
     };
+
+    $temporalOutputTwo = match (true) {
+        $age < 2 => "Eres un bebé, $name",
+        $age < 10 => "Eres un niño, $name",
+        $age < 18 => "Eres un adolescente, $name",
+        $age === 18 => "Eres mayor de edad, $name"
+    };
 ?>
 
 <h1>
