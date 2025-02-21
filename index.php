@@ -1,9 +1,11 @@
 <h1>
 <?php
-    echo "hola mundo";
+    echo "Hola mundo";
 ?>
 </h1>
-
+<h1>
+    <?= "Mi primer app"; ?>
+</h1>
 <style>
     :root {
         color-scheme: light dark;
