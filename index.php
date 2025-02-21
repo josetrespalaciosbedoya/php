@@ -16,6 +16,8 @@
     $course = 'PHP';
     $user = 'Jose';
     $presentation = $user .' '. $course;
+
+    var_dump($age);
 ?>
 </h1>
 <h1>
@@ -24,6 +26,7 @@
 <p>
     Presentation: <?=$presentation;?>
 </p>
+<?= var_dump($age);?>
 <h1>
     <!-- Impresión abreviada. -->
     <?= $newAge; ?>
