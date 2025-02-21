@@ -16,6 +16,8 @@
     $course = 'PHP';
     $user = 'Jose';
     $presentation = $user .' '. $course;
+    
+    echo gettype($age);
 
     var_dump($age);
 ?>
