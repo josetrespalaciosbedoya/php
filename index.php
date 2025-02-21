@@ -12,8 +12,18 @@
     // Variable numérica.
     $age = 39;
     $newAge = 39 + '1';
+
+    $course = 'PHP';
+    $user = 'Jose';
+    $presentation = $user .' '. $course;
 ?>
 </h1>
+<h1>
+    Hola, soy <?=$user;?>
+</h1>
+<p>
+    Presentation: <?=$presentation;?>
+</p>
 <h1>
     <!-- Impresión abreviada. -->
     <?= $newAge; ?>
