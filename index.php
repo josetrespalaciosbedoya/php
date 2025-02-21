@@ -21,7 +21,6 @@
     
     echo $output;
 
-    
     echo gettype($age);
     
     var_dump($age);
