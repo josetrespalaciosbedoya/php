@@ -7,6 +7,7 @@
     $name = "Jose Luis";
     // Variable boolean, y recomendación de uso de cammelCase.
     $isDev = true;
+    $isOld = false;
     // Impresión básica
     echo "Hola mundo";
     // Variable numérica.
@@ -32,6 +33,15 @@
     define('LOGO_URL', 'https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png');
     const NOMBRE = 'Jose Luis';
 ?>
+
+<?php if ($isDev) : ?>
+    <h2>Eres viejo, lo siento</h2>
+<?php elseif ($isOld) : ?>
+    <h2>No eres viejo, pero eres dev.</h2>
+<?php else : ?>
+    <h2>Eres joven, felicidades</h2>
+<?php endif; ?>
+
 <img src="<?= LOGO_URL ?>" alt="PHP Logo" width="200">
 </h1>
 <h1>
