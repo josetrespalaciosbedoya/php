@@ -1,5 +1,7 @@
 <h1>
 <?php
+    // Comando para ejecutar servidor de PHP.
+    // En ruta del archivo, ejecutar php -S localhost:8000
     // Variable.
     $name = "Jose Luis";
     // Variable boolean, y recomendación de uso de cammelCase.
