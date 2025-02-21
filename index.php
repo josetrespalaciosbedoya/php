@@ -1,15 +1,17 @@
 <h1>
 <?php
-    // Variable
+    // Variable.
     $name = "Jose Luis";
-    // Variable boolean, y recomendación de uso de cammelCase
+    // Variable boolean, y recomendación de uso de cammelCase.
     $isDev = true;
     // Impresión básica
     echo "Hola mundo";
+    // Variable numérica.
+    $age = 39;
 ?>
 </h1>
 <h1>
-    <!-- Impresión abreviada -->
+    <!-- Impresión abreviada. -->
     <?= "Mi primer app"; ?>
 </h1>
 <style>
