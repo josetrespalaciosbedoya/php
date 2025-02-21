@@ -1,9 +1,13 @@
 <h1>
 <?php
+    // Variable
+    $name = "";
+    // Impresión básica
     echo "Hola mundo";
 ?>
 </h1>
 <h1>
+    <!-- Impresión abreviada -->
     <?= "Mi primer app"; ?>
 </h1>
 <style>
