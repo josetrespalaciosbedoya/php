@@ -16,6 +16,9 @@
     $course = 'PHP';
     $user = 'Jose';
     $presentation = $user .' '. $course;
+    $output = "Hola, soy $user, y estudio $course";
+    
+    echo $output;
     
     echo gettype($age);
 
