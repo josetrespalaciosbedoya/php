@@ -12,6 +12,7 @@
     // Variable numérica.
     $age = 39;
     $newAge = 39 + '1';
+    $lenguajes = ['JS', 'PHP', 'Python'];
 
     $course = 'PHP';
     $user = 'Jose';
@@ -19,10 +20,13 @@
     $output = "Hola, soy $user, y estudio $course";
     
     echo $output;
+
     
     echo gettype($age);
-
+    
     var_dump($age);
+    
+    echo $lenguajes[2];
 ?>
 </h1>
 <h1>
