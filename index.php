@@ -31,11 +31,12 @@
     // Constantes
     // Globales
     define('LOGO_URL', 'https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png');
+    const NOMBRE = 'Jose Luis';
 ?>
 <img src="<?= LOGO_URL ?>" alt="PHP Logo" width="200">
 </h1>
 <h1>
-    Hola, soy <?=$user;?>
+    Hola, soy <?=$user;?> <?= NOMBRE ?>
 </h1>
 <p>
     Presentation: <?=$presentation;?>
