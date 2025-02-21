@@ -16,7 +16,7 @@
 </h1>
 <h1>
     <!-- Impresión abreviada. -->
-    <?= "Mi primer app"; ?>
+    <?= $newAge; ?>
 </h1>
 <style>
     :root {
