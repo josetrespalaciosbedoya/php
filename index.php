@@ -11,6 +11,7 @@
     echo "Hola mundo";
     // Variable numérica.
     $age = 39;
+    $newAge = 39 + '1';
 ?>
 </h1>
 <h1>
