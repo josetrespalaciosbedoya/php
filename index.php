@@ -38,8 +38,15 @@
     $output = "Hola $name, con una edad de $age.😀";
     $outputAge = $isOld
     ? 'Eres viejo, lo siento'
-    :  'Eres joven, felicidades'
+    :  'Eres joven, felicidades';
+
+    $temporalOutput = match ($age) {
+        0, 1, 2 => "Eres un bebé, $name",
+        3, 4,5,6,7,8,9,10 => "Eres un niño, $name",
+        11,12,13,14,15,16 => "Eres un adolescente, $name"
+    };
 ?>
+
 <h1>
     <?= $output ?>
 </h1>
