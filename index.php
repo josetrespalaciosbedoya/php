@@ -2,6 +2,8 @@
 <?php
     // Variable
     $name = "Jose Luis";
+    // Variable boolean, y recomendación de uso de cammelCase
+    $isDev = true;
     // Impresión básica
     echo "Hola mundo";
 ?>
