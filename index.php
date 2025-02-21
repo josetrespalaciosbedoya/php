@@ -1,5 +1,6 @@
 <h1>
 <?php
+    // PHP es un lenguaje de tipado dinámico, débil y gradual
     // Comando para ejecutar servidor de PHP.
     // En ruta del archivo, ejecutar php -S localhost:8000
     // Variable.
