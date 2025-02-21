@@ -11,8 +11,8 @@
     // Impresión básica
     echo "Hola mundo";
     // Variable numérica.
-    $age = 39;
-    $newAge = 39 + '1';
+    $age = 25;
+    $newAge = 25 + '1';
     $lenguajes = ['JS', 'PHP', 'Python'];
 
     $course = 'PHP';
@@ -32,8 +32,17 @@
     // Globales
     define('LOGO_URL', 'https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png');
     const NOMBRE = 'Jose Luis';
-?>
 
+    $isOld = $age > 40;
+
+    $output = "Hola $name, con una edad de $age.😀";
+    $outputAge = $isOld
+    ? 'Eres viejo, lo siento'
+    :  'Eres joven, felicidades'
+?>
+<h1>
+    <?= $output ?>
+</h1>
 <?php if ($isDev) : ?>
     <h2>Eres viejo, lo siento</h2>
 <?php elseif ($isOld) : ?>
